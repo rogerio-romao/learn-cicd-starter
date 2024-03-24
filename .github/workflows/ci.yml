@@ -19,5 +19,5 @@ jobs:
                   go-version: '1.22'
 
             - name: Run tests
-              run: got test -cover ./...
+              run: go test -cover ./...
 
